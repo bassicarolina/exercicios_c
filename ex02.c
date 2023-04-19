@@ -28,7 +28,7 @@ void main ()
 
 
 	printf ("[1] Mercurio\n[2] Venus\n[3] Marte\n");
-	printf ("[4] Jupiter\n[5] Saturno\n[6] Urano\n\n"
+	printf ("[4] Jupiter\n[5] Saturno\n[6] Urano\n\n");
 
 	
 	printf ("Entre com o numero do planeta: ");
@@ -36,7 +36,7 @@ void main ()
 
 	
 
-	if (numPlaneta == 1)
+	if (num == 1)
 		{
 		pesoPlaneta = (pesoTerra/10) * 0.37;
 		printf ("\nPeso no planeta escolhido: %.2f\n", pesoPlaneta);
