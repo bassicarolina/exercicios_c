@@ -15,11 +15,9 @@
 #include <stdio.h>	
 void main ()
 {
-	s
 	float pesoTerra, pesoPlaneta, gravidade;
 	int num;
 	
-l
 	printf ("Entre com o peso da pessoa na Terra: ");
 	scanf ("%f", &pesoTerra);
 	
