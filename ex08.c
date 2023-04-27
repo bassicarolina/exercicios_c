@@ -4,8 +4,6 @@
 
 #include <stdio.h>
 
-#include <stdio.h>
-
 void main() 
 {
         int data1, data2, mes1, mes2, ano1, ano2;
@@ -75,7 +73,7 @@ void main()
                                 printf ("/%d", mes1);
                                 printf ("/%d", ano1); 
                             }
-                        else (data2>data1);
+                        else
                             {
                                 printf ("\nA data mais recente é: ");
                                 printf ("%d", data2);
