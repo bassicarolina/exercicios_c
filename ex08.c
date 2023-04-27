@@ -73,7 +73,8 @@ void main()
                                 printf ("/%d", mes1);
                                 printf ("/%d", ano1); 
                             }
-                        else
+                        else 
+                            if (data2>data1)
                             {
                                 printf ("\nA data mais recente é: ");
                                 printf ("%d", data2);
