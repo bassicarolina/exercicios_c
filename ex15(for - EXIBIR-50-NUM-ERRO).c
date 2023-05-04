@@ -6,7 +6,7 @@
 #include <stdio.h>
 void main ()
 {
-  int i, numero=1;
+  int i, j, numero=1;
 
   for(i=1; i<=50; i++)
     printf("%d", numero);
