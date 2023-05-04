@@ -6,8 +6,8 @@
 #include <stdio.h>
 void main ()
 {
-  int i, j, numero=1;
+  int i, j;
 
-  for(i=1; i<=50; i++)
-    printf("%d", numero);
+  for(i=1, j=-2; i<=50; i+=2, j-=2)
+    printf("%d %d", i, j);
 }
